@@ -1,9 +1,16 @@
-<<div class="book-wrap">
-<% @book.each do |list| %>
-    <div class="book-comment">
-      <span class="book-body"><%= book.body %></span>
-      <span class="book-title"><%= link_to book.title, book_path(book.id) %></span>
-    </div>
-  </div>
-<% end %>
-</div>
+<p id="notice"></p>
+<h1>Books</h1>
+
+<table>
+
+  <thead>
+
+    <tr>Title</tr>
+    <th>Body</th>
+    <th colspan="3"></th>
+
+  </thead>
+
+</table>
+
+<h2>New book</h2>
