@@ -31,3 +31,7 @@ p{
     display: block;
     margin: 30px;
 }
+
+.title,.body{
+  display: flex;
+}
