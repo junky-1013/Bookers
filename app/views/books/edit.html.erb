@@ -3,12 +3,15 @@
 <%= form_with model: @book,url: edit_book_path(@book.id),method: :patch do |f| %>
 
 <h4>Title</h4>
-<%= f.text_field :title %>git
+<%= f.text_field :title %>
 
 <h4>Body</h4>
 <%= f.text_area :body %>
 
 <%= f.submit 'Update Book' %>
 
+<a href ="/books/show">Edit</a>
+|
+<a href ="/books">Back</a>
 
 <% end %>
