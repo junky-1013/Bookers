@@ -35,3 +35,7 @@ p{
 .title,.body{
   display: flex;
 }
+
+.text_success{
+  color: green;
+}
